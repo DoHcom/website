@@ -1,0 +1,10 @@
+    <div class="flexheader">
+      <h1>{{ .Site.Title }}</h1>
+      <nav>
+        <ul>{{ range $menu := .Site.Menus.main }}
+          <li>
+            <a href="{{ $menu.URL }}">{{ $menu.Name }}</a>
+          </li>{{ end }}
+        </ul>
+      </nav>
+    </div>

@@ -1,0 +1,16 @@
+baseURL                 = "https://DNS-over-HTTPS.com/"
+languageCode            = "en-us"
+title                   = "DNS-over-HTTPS.com"
+
+[params]
+description             = "IETF compliant public DNS-over-HTTPS service"
+
+[[menu.main]]
+name                    = "Home"
+url                     = "/"
+weight                  = 10
+
+[[menu.main]]
+name                    = "Setup"
+url                     = "/setup/"
+weight                  = 0

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>
+    {{ $title := (cond .Page.IsHome .Site.Title (printf "%s - %s" .Page.Title .Site.Title)) }}{{ htmlEscape $title }}
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="{{ $title }}" />
+  {{ if .Page.IsHome }}<meta name="description" content="{{ .Site.Params.description }}" />{{ end }}
+  <meta property="og:title" content="{{ $title }}" />
+  {{ if .Page.IsHome }}<meta property="og:description" content="{{ .Site.Params.description }}" />{{ end }}
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono|Lato:400,700" />
+</head>
+
+<body class="flexbody">
+  <header>
+{{ partial "header.html" . }}
+  </header>
+  <main>
+    <section>{{ block "main" . }}
+      <h1>{{ htmlEscape .Page.Title }}</h1>
+      <div class="content">
+{{ .Page.Content | markdownify }}
+      </div>{{ end }}
+    </section>
+  </main>
+  <footer>
+{{ partial "footer.html" }}
+  </footer>
+</body>
+
+</html>
