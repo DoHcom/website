@@ -4,7 +4,7 @@ date: 2018-05-07T21:44:10+08:00
 draft: false
 ---
 
-<p style="font-size: 1.2rem">IETF compliant DNS-over-HTTPS service as geeky as if we are at year 8102.</p>
+<p style="font-size: 1.2rem">IETF compliant DNS-over-HTTPS service as geeky as if it's Year 8102.</p>
 
 <p style="font-size: 2rem; text-align: center; margin: 6rem 0rem">https://dns.dns-over-https.com/dns-query</p>
 
