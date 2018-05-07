@@ -3,7 +3,7 @@ languageCode            = "en-us"
 title                   = "DNS-over-HTTPS.com"
 
 [params]
-description             = "IETF compliant public DNS-over-HTTPS service"
+description             = "IETF compliant DNS-over-HTTPS service as geeky as if we are at year 8102."
 
 [[menu.main]]
 name                    = "Home"
