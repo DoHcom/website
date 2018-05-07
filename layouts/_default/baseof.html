@@ -28,7 +28,7 @@
   <main>
     <section>
       {{- block "main" . }}
-      <h1>{{ htmlEscape .Page.Title }}</h1>
+      <h2>{{ htmlEscape .Page.Title }}</h2>
       <div class="content">
 
 {{ .Page.Content | markdownify }}
