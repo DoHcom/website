@@ -1,9 +1,15 @@
 baseURL                 = "https://DNS-over-HTTPS.com/"
 languageCode            = "en-us"
 title                   = "DNS-over-HTTPS.com"
+enableRobotsTXT         = true
 
 [params]
 description             = "IETF compliant DNS-over-HTTPS service as geeky as if we are at year 8102."
+
+[sitemap]
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5
 
 [[menu.main]]
 name                    = "Home"
