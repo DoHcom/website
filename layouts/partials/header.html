@@ -1,10 +1,10 @@
     <div class="flexheader">
-      <h1><a href="/" title="Home Page">{{ .Site.Title }}</a></h1>
+      <h1><a href="/" title="Home Page">{{ htmlEscape .Site.Title }}</a></h1>
       <nav>
         <ul>
           {{- range $menu := .Site.Menus.main }}
           <li>
-            <a href="{{ $menu.URL }}">{{ $menu.Name }}</a>
+            <a href="{{ $menu.URL }}">{{ htmlEscape $menu.Name }}</a>
           </li>
           {{- end }}
         </ul>

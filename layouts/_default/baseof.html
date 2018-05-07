@@ -30,6 +30,7 @@
       {{- block "main" . }}
       <h1>{{ htmlEscape .Page.Title }}</h1>
       <div class="content">
+
 {{ .Page.Content | markdownify }}
       </div>
       {{- end }}
