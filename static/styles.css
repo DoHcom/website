@@ -21,13 +21,13 @@ header {
     padding: 0rem 0.75rem;
 }
 
-header .flexheader {
+header .container {
     align-items: stretch;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0rem auto;
-    max-width: 58.5rem;
+    max-width: 78.5rem;
     width: 100%;
 }
 
@@ -83,11 +83,11 @@ header nav a:active, header nav a:focus, header nav a:hover {
 }
 
 main {
+    color: #333333;
     padding: 6rem 0.75rem;
 }
 
-main section {
-    color: #333333;
+main .container {
     margin: 0rem auto;
     max-width: 58.5rem;
     width: 100%;
@@ -122,6 +122,12 @@ footer {
     font-size: 0.9rem;
     margin: auto 0rem 0rem 0rem;
     padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+
+footer .container {
+    margin: 0rem auto;
+    max-width: 78.5rem;
+    width: 100%;
 }
 
 footer nav ul {
