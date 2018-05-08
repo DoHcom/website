@@ -1,4 +1,4 @@
-baseURL                 = "https://DNS-over-HTTPS.com/"
+baseURL                 = "https://dns-over-https.com/"
 languageCode            = "en-us"
 title                   = "DNS-over-HTTPS.com"
 enableRobotsTXT         = true
