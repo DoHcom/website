@@ -16,7 +16,7 @@ draft: false
 
 2. Information we share:
 
-    - GeoDNS service uses your geographical information to determine servers that are faster and have lower latency to you. To make GeoDNS work, we send part of your IP address (/24 for IPv4, /48 for IPv6 by default) to authoritive and recursive domain name servers. You may opt out this behavior if you use `doh-client` by setting `no_ecs = true`. Please note that /24 is not enough to track a single user, although it is precise enough to determine your geographical location.
+    - GeoDNS service uses your geographical information to determine servers that are faster and have lower latency to you. To make GeoDNS work, we send part of your IP address (/24 for IPv4, /56 for IPv6 by default) to authoritive and recursive domain name servers. You may opt out this behavior if you use `doh-client` by setting `no_ecs = true`. Please note that /24 is not enough to track a single user, although it is precise enough to determine your geographical location.
 
     - We reserve the right to share your personal information for legal reasons, including but not limited to:
 

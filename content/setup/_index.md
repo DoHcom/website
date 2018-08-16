@@ -18,7 +18,7 @@ We recommend using [m13253/dns-over-https](https://github.com/m13253/dns-over-ht
 
 4. To protect privacy, we do recursive queries with DNSSEC check by ourselves without relying on other public DNS resolvers. That would be much slower, you have been warned.
 
-5. Your IP prefix (/24 for IPv4, /48 for IPv6) is used for retrieving GeoDNS-related results. For `doh-client`, you may use `no_ecs` to opt out.
+5. Your IP prefix (/24 for IPv4, /56 for IPv6) is used for retrieving GeoDNS-related results. For `doh-client`, you may use `no_ecs` to opt out.
 
 6. Some domains (especially those hosted on Alibaba DNS) fail to resolve due to connectivity problems. Write to us if it happens. We will forward related quries to Google or CloudFlare’s resolvers.
 
