@@ -50,4 +50,4 @@ draft: false
 
 7. Contact
 
-    Feel free to write to the “dns” mailbox of “dns-over-https.com” in case of anything you want to tell us.
+    Feel free to write to the “doh” mailbox of “nekomimirouter.com” in case of anything you want to tell us.
